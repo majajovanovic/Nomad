@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Product" max_length="40" name="x_133812_nomad_product" type="collection">
+        <element default="javascript:getNextObjNumberPadded();" dynamic_default_value="fdcb83a85f220100a9ad2572f2b4773c" label="Number" max_length="40" name="number" type="string" use_dynamic_default="true"/>
+        <element label="Select Voice Product" max_length="40" name="select_voice_product" type="string"/>
+    </element>
+</database>

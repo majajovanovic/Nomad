@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_embedded_help_role">
+    <sys_embedded_help_role action="INSERT_OR_UPDATE">
+        <order>1000</order>
+        <role display_value="x_133812_nomad.attribute_product_user" name="x_133812_nomad.attribute_product_user">19a81b5ddb333200b1c4fcdfbf9619d2</role>
+        <sys_class_name>sys_embedded_help_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-07-06 04:57:06</sys_created_on>
+        <sys_id>11a81b5ddb333200b1c4fcdfbf9619d4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>19a81b5ddb333200b1c4fcdfbf9619d2</sys_name>
+        <sys_package display_value="Nomad" source="x_133812_nomad">f4a73691db333200b1c4fcdfbf9619e2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Nomad">f4a73691db333200b1c4fcdfbf9619e2</sys_scope>
+        <sys_update_name>sys_embedded_help_role_11a81b5ddb333200b1c4fcdfbf9619d4</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-07-06 04:57:06</sys_updated_on>
+    </sys_embedded_help_role>
+</record_update>

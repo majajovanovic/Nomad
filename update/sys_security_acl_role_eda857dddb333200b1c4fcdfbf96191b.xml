@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-07-06 04:57:06</sys_created_on>
+        <sys_id>eda857dddb333200b1c4fcdfbf96191b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_133812_nomad_attribute_product.x_133812_nomad.attribute_product_user</sys_name>
+        <sys_package display_value="Nomad" source="x_133812_nomad">f4a73691db333200b1c4fcdfbf9619e2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Nomad">f4a73691db333200b1c4fcdfbf9619e2</sys_scope>
+        <sys_security_acl display_value="x_133812_nomad_attribute_product">a5a857dddb333200b1c4fcdfbf961919</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_eda857dddb333200b1c4fcdfbf96191b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-07-06 04:57:06</sys_updated_on>
+        <sys_user_role display_value="x_133812_nomad.attribute_product_user" name="x_133812_nomad.attribute_product_user">19a81b5ddb333200b1c4fcdfbf9619d2</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+</record_update>

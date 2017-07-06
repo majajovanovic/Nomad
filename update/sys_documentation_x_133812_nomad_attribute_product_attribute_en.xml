@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="attribute" label="Attribute" language="en" table="x_133812_nomad_attribute_product">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>attribute</element>
+            <help/>
+            <hint/>
+            <label>Attribute</label>
+            <language>en</language>
+            <name>x_133812_nomad_attribute_product</name>
+            <plural>Attributes</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-07-06 04:58:09</sys_created_on>
+            <sys_id>b0e8d7dddb333200b1c4fcdfbf9619af</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Attribute</sys_name>
+            <sys_package display_value="Nomad" source="x_133812_nomad">f4a73691db333200b1c4fcdfbf9619e2</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Nomad">f4a73691db333200b1c4fcdfbf9619e2</sys_scope>
+            <sys_update_name>sys_documentation_x_133812_nomad_attribute_product_attribute_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-07-06 04:58:09</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

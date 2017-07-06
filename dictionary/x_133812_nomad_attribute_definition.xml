@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Attribute Definition" max_length="40" name="x_133812_nomad_attribute_definition" type="collection">
+        <element label="Name" max_length="100" name="name" type="string" unique="true"/>
+        <element dynamic_ref_qual="64849a905f220100a9ad2572f2b477ae" label="Type" max_length="32" name="type" reference="sys_glide_object" reference_qual="javascript:new GlideFieldTypeReference(current).getQualifier();" type="reference" use_reference_qualifier="dynamic"/>
+        <index name="index">
+            <element name="name"/>
+        </index>
+        <index name="index2">
+            <element name="type"/>
+        </index>
+    </element>
+</database>
