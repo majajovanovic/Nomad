@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
     <element label="Attribute Product" max_length="40" name="x_133812_nomad_attribute_product" type="collection">
-        <element label="Attribute" max_length="32" name="attribute" reference="x_133812_nomad_attribute_definition" type="reference"/>
+        <element label="Attribute" max_length="32" name="attribute" reference="x_133812_nomad_attribute_definition" reference_floats="true" reference_qual="javascript:GetAttributeRef()" type="reference" use_dependent_field="true" use_reference_qualifier="advanced"/>
         <element label="Product ID" max_length="32" name="product_id" reference="x_133812_nomad_product" type="reference"/>
         <element label="Value" max_length="4000" name="value" type="string"/>
         <index name="index">

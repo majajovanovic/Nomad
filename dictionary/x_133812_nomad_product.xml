@@ -1,7 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
     <element label="Product" max_length="40" name="x_133812_nomad_product" type="collection">
-        <element default="javascript:getNextObjNumberPadded();" dynamic_default_value="fdcb83a85f220100a9ad2572f2b4773c" label="Number" max_length="40" name="number" type="string" use_dynamic_default="true"/>
-        <element label="Select Voice Product" max_length="40" name="select_voice_product" type="string"/>
+        <element default="javascript:getNextObjNumberPadded();" dynamic_default_value="fdcb83a85f220100a9ad2572f2b4773c" label="Number" max_length="40" name="number" type="string" unique="true" use_dynamic_default="true"/>
+        <element choice="3" default="1" label="Select Voice Product" max_length="40" name="select_voice_product" type="string">
+            <choice>
+                <element label="T-Biz Voice" sequence="0" value="1"/>
+                <element label="T-Biz Voice Standard" sequence="1" value="2"/>
+                <element label="ISDN 2 Enhanced" sequence="2" value="3"/>
+                <element label="DOT" sequence="3" value="4"/>
+                <element label="CustomNet Spectrum" sequence="4" value="5"/>
+                <element label="SIP Connect" sequence="5" value="6"/>
+                <element label="Mobile (Next G)" sequence="6" value="7"/>
+                <element label="DET Lift Solution" sequence="7" value="9"/>
+                <element label="Other (See Sales Comments)" sequence="8" value="8"/>
+            </choice>
+        </element>
+        <index name="index">
+            <element name="number"/>
+        </index>
     </element>
 </database>

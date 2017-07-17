@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="asmt_template_definition">
+    <asmt_template_definition action="INSERT_OR_UPDATE">
+        <display>bla</display>
+        <selected_image/>
+        <sys_class_name>asmt_template_definition</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-07-06 12:39:55</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>5f8289a5dbf33200b1c4fcdfbf961912</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>bla</sys_name>
+        <sys_package display_value="Nomad" source="x_133812_nomad">f4a73691db333200b1c4fcdfbf9619e2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Nomad">f4a73691db333200b1c4fcdfbf9619e2</sys_scope>
+        <sys_update_name>asmt_template_definition_5f8289a5dbf33200b1c4fcdfbf961912</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-07-06 12:39:55</sys_updated_on>
+        <template display_value="testmj">d98209a5dbf33200b1c4fcdfbf9619c6</template>
+        <unselected_image/>
+        <value>1</value>
+    </asmt_template_definition>
+    <sys_translated_text action="delete_multiple" query="documentkey=5f8289a5dbf33200b1c4fcdfbf961912"/>
+</record_update>

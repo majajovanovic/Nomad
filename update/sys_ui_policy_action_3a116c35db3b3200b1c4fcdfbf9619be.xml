@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="INSERT_OR_UPDATE">
+        <disabled>ignore</disabled>
+        <field>reference_qualifier_condition</field>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-07-07 04:52:20</sys_created_on>
+        <sys_id>3a116c35db3b3200b1c4fcdfbf9619be</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>reference_qualifier_condition</sys_name>
+        <sys_package display_value="Nomad" source="x_133812_nomad">f4a73691db333200b1c4fcdfbf9619e2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Nomad">f4a73691db333200b1c4fcdfbf9619e2</sys_scope>
+        <sys_update_name>sys_ui_policy_action_3a116c35db3b3200b1c4fcdfbf9619be</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-07-07 04:52:20</sys_updated_on>
+        <table>x_133812_nomad_attribute_definition</table>
+        <ui_policy display_value="Simple reference qual">1501e835db3b3200b1c4fcdfbf9619d5</ui_policy>
+        <visible>true</visible>
+    </sys_ui_policy_action>
+</record_update>

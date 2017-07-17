@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="reference_qualifier_condition" label="Reference qualifier condition" language="en" table="x_133812_nomad_attribute_definition">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>reference_qualifier_condition</element>
+            <help/>
+            <hint/>
+            <label>Reference qualifier condition</label>
+            <language>en</language>
+            <name>x_133812_nomad_attribute_definition</name>
+            <plural>Reference qualifier conditions</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-07-07 04:36:19</sys_created_on>
+            <sys_id>b27d14f1db3b3200b1c4fcdfbf9619b9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Reference qualifier condition</sys_name>
+            <sys_package display_value="Nomad" source="x_133812_nomad">f4a73691db333200b1c4fcdfbf9619e2</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Nomad">f4a73691db333200b1c4fcdfbf9619e2</sys_scope>
+            <sys_update_name>sys_documentation_x_133812_nomad_attribute_definition_reference_qualifier_condition_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-07-07 04:36:19</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

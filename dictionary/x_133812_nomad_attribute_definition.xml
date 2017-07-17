@@ -1,12 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
     <element label="Attribute Definition" max_length="40" name="x_133812_nomad_attribute_definition" type="collection">
+        <element label="Label" max_length="100" name="label" type="string"/>
         <element label="Name" max_length="100" name="name" type="string" unique="true"/>
+        <element label="Product ID" max_length="32" name="product_id" reference="x_133812_nomad_product" reference_floats="true" type="reference"/>
+        <element choice="1" choice_field="select_voice_product" choice_table="x_133812_nomad_product" label="Product Type" max_length="40" name="product_type" type="string">
+            <choice/>
+        </element>
+        <element label="Reference" max_length="80" name="reference" type="table_name"/>
+        <element dependent="reference" dependent_on_field="reference" label="Reference qualifier condition" max_length="4000" name="reference_qualifier_condition" type="conditions" use_dependent_field="true"/>
         <element dynamic_ref_qual="64849a905f220100a9ad2572f2b477ae" label="Type" max_length="32" name="type" reference="sys_glide_object" reference_qual="javascript:new GlideFieldTypeReference(current).getQualifier();" type="reference" use_reference_qualifier="dynamic"/>
+        <element choice="3" choice_field="use_reference_qualifier" choice_table="question" default="simple" label="Use reference qualifier" max_length="40" name="use_reference_qualifier" type="string">
+            <choice/>
+        </element>
         <index name="index">
-            <element name="name"/>
+            <element name="product_id"/>
         </index>
         <index name="index2">
+            <element name="name"/>
+        </index>
+        <index name="index3">
             <element name="type"/>
         </index>
     </element>
